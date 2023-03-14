@@ -1,10 +1,7 @@
 ---
 page_type: sample
-languages: 
-- python
-products: 
-- azure
-- azure-functions
+languages: python
+products: azure function
 title: Using Flask Framework with Azure Functions
 ---
 
