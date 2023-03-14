@@ -119,20 +119,17 @@ You can use a tool like Postman to see the API in action locally, and on Azure. 
 
 ### Calling the URL with Path Parameters
 
-When running this sample, you can try a different URL route as well as parameterize it. For instance, `http://<HOST>:7071/hello/Foo` to call the Flask app with path param `Foo`. Another option is have the route as module to provide import guidance, which can be done through changing the url to `http://<HOST>:7071/module`.
+When running this sample, you can try a different URL route as well as parameterize it. For instance, `http://<HOST>:7071/joke` to tell the Flask app invoking to reach random joke site and will respond back.
 
 When done locally, please try the following URL in your browser -
 ```
-http://localhost:7071/hello/Foo
+http://localhost:7071/joke
 ```
 
 When done in Azure, please try the following URL in your browser -
 ```
-http://<FunctionAppName>.azurewebsites.net/hello/Foo
+http://<FunctionAppName>.azurewebsites.net/joke
 ```
 
 ## Conclusion and Next Steps
-
-[This sample](https://github.com/Azure-Samples/flask-app-on-azure-functions/) helps you setup an app with the Flask framework and can help you get started using web frameworks in Azure Functions.
-
 To learn more about altering Python functions to leverage WSGI and ASGI-compatible frameworks, see [Web frameworks](https://docs.microsoft.com/azure/azure-functions/functions-reference-python?tabs=asgi%2Cazurecli-linux%2Capplication-level#web-frameworks).
